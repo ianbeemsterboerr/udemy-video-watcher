@@ -1,0 +1,14 @@
+{
+    "name": "Udemy Certificate Bot",
+    "version": "1.0",
+    "description": "Chrome extension that 'watches' all videos in a udemy course to unlock the certificate.",
+    "permissions": ["tabs", "activeTab", "storage", "declarativeContent"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "page_action": {
+        "default_popup": "popup.html"
+      },
+    "manifest_version": 2
+}
